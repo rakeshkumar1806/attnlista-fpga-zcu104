@@ -1,0 +1,4 @@
+open_project lista_prj
+open_solution solution1
+csynth_design
+exit

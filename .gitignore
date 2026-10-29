@@ -1,0 +1,72 @@
+# ── Build outputs ──────────────────────────────────────────────
+*.exe
+*.bit
+*.bin
+*.xsa
+*.zip
+*.mcs
+*.prm
+
+# ── Vivado / Vitis project files ───────────────────────────────
+*.jou
+*.backup.jou
+*.backup.log
+vivado*.log
+vitis_hls.log
+*.dcp
+*.xpr
+*.xclbin
+*.ltx
+.Xil/
+attnlista/xsa_extract/
+attnlista/vivado_prj/
+attnlista/vitis_workspace/
+attnlista/lista_prj/
+attnlista/lista_prj2/
+attnlista/lista_prj3/
+attnlista/lista_prj_synth/
+attnlista/cnn_prj/
+attnlista/fast_sim_prj/
+attnlista/fft_prj/
+attnlista/hls_export/
+attnlista/zcu104_system_test/
+
+# ── Simulation / synthesis logs ────────────────────────────────
+attnlista/csim_output*.log
+attnlista/csynth_output*.log
+attnlista/cosim_lista*.log
+attnlista/cnn_fast*.log
+attnlista/cnn_full*.log
+attnlista/cnn_opt*.log
+attnlista/cnn_synth*.log
+attnlista/cnn_output.log
+attnlista/run_csim_final.log
+attnlista/export_*.log
+attnlista/fft_test*.log
+attnlista/synth_fast.log
+attnlista/synth_fixed.log
+attnlista/synth_unrolled.log
+attnlista/bitstream.log
+attnlista/vivado_build.log
+attnlista/vitis_hls.log
+attnlista/*.backup.jou
+attnlista/*.backup.log
+attnlista/vivado*.jou
+attnlista/vivado*.log
+
+# ── Large generated test-vector headers ────────────────────────
+attnlista/test_vectors_multi.h
+
+# ── NumPy binary test files ─────────────────────────────────────
+attnlista/*.npy
+
+# ── Python cache ───────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+
+# ── IDE / OS ───────────────────────────────────────────────────
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini

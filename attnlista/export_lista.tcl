@@ -1,0 +1,4 @@
+open_project lista_prj_synth
+open_solution solution1
+export_design -format ip_catalog
+exit

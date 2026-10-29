@@ -1,0 +1,4 @@
+open_project zcu104_system_test/zcu104_system_test.xpr
+open_run impl_1
+report_timing_summary -file fresh_timing.rpt
+exit

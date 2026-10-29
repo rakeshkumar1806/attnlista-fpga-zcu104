@@ -1,0 +1,68 @@
+# ── Build outputs ──────────────────────────────────────────────
+*.exe
+*.bit
+*.bin
+*.xsa
+*.zip
+*.mcs
+*.prm
+
+# ── Vivado / Vitis project files ───────────────────────────────
+*.jou
+*.backup.jou
+*.backup.log
+vivado*.log
+vitis_hls.log
+*.dcp
+*.xpr
+*.xclbin
+*.ltx
+.Xil/
+xsa_extract/
+vivado_prj/
+vitis_workspace/
+lista_prj/
+lista_prj2/
+lista_prj3/
+lista_prj_synth/
+lista_prj4/
+cnn_prj/
+fast_sim_prj/
+fft_prj/
+hls_export/
+
+# ── Simulation / synthesis logs ────────────────────────────────
+csim_output*.log
+csynth_output*.log
+cosim_lista*.log
+cnn_fast*.log
+cnn_full*.log
+cnn_opt*.log
+cnn_synth*.log
+cnn_output.log
+run_csim_final.log
+export_*.log
+fft_test*.log
+synth_fast.log
+synth_fixed.log
+synth_unrolled.log
+bitstream.log
+vivado_build.log
+
+# ── Python cache ───────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ── NumPy test vectors (large, generated from scripts) ─────────
+tb_fft_16_in.npy
+tb_fft_16_out.npy
+tb_h_lista_expected.npy
+tb_y_input.npy
+
+# ── IDE / OS ───────────────────────────────────────────────────
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
