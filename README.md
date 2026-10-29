@@ -96,7 +96,7 @@ The design has two HLS IP cores connected via 5 AXI DMA engines to the Zynq PS:
 
 ```
 attnlista-fpga-zcu104/
-├── attnlista/
+├── attnlista/                        # FPGA HLS cores, Vivado BD, and tests
 │   ├── attnlista_golden_model.py     # NumPy reference (algorithm spec & validation)
 │   ├── attnlista_hls.h               # Fixed-point types & model constants
 │   ├── attnlista_hls_core.h          # Radix-2 FFT + LISTA layer HLS
@@ -117,13 +117,17 @@ attnlista-fpga-zcu104/
 │   ├── post_impl_timing.txt          # Post-route timing summary
 │   ├── hw_nmse_1000.txt              # Hardware NMSE — 1000 test vectors
 │   ├── README_DEPLOYMENT.md          # Vitis IDE deployment guide
-│   └── docs/figures/                 # All result figures
+│   └── docs/figures/                 # Figures extracted from LaTeX paper & report
 │       ├── nmse_vs_snr.png
 │       ├── nmse_scatter_1000.png
 │       ├── se_vs_snr.png
 │       └── ablation.png
-├── Capstone_Report__student_1_rakesh.pdf   # Full capstone report
-├── paper_final_draft.pdf                   # Research paper
+├── docs/                             # Capstone documentation & papers
+│   ├── Capstone_Report__student_1_rakesh.pdf  # Full capstone report
+│   ├── paper_final_draft.pdf                  # Research paper
+│   └── latex_source/                          # Complete LaTeX source packages
+├── notebooks/                        # DeepMIMO experiments & training
+│   └── attnlista_training_and_experiments.ipynb
 └── README.md
 ```
 
@@ -224,8 +228,9 @@ Final Hardware NMSE vs Golden Model: 0.000001
 
 ## References
 
-- 📄 **Research Paper:** [`paper_final_draft.pdf`](paper_final_draft.pdf)
-- 📋 **Capstone Report:** [`Capstone_Report__student_1_rakesh.pdf`](Capstone_Report__student_1_rakesh.pdf)
+- 📄 **Research Paper:** [`docs/paper_final_draft.pdf`](docs/paper_final_draft.pdf)
+- 📋 **Capstone Report:** [`docs/Capstone_Report__student_1_rakesh.pdf`](docs/Capstone_Report__student_1_rakesh.pdf)
+- 📓 **Training & Experiments:** [`notebooks/attnlista_training_and_experiments.ipynb`](notebooks/attnlista_training_and_experiments.ipynb)
 - 📦 **Deployment Guide:** [`attnlista/README_DEPLOYMENT.md`](attnlista/README_DEPLOYMENT.md)
 
 ---
